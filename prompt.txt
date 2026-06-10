@@ -1,0 +1,178 @@
+MINI PROJECT – PROMPT HISTORY
+
+Project Title: 2D Graphics Editor Using C
+
+==================================================
+DAY 1
+
+Prompt:
+Write a C program for a simple 2D Graphics Editor using ASCII graphics. Create a fixed-size canvas using a 2D character array. Implement functions to clear the canvas, set pixels, and display the canvas on the console.
+
+Response:
+Generated a program containing:
+
+* 2D character array canvas
+* clearCanvas()
+* setPixel()
+* displayCanvas()
+* Canvas boundary checking
+* Console rendering
+
+==================================================
+DAY 1 (CONTINUED)
+
+Prompt:
+Implement drawing algorithms for basic geometric shapes. Add support for:
+
+* Line
+* Rectangle
+* Circle
+* Triangle
+
+Use separate drawing functions for each shape and render them using '*' characters.
+
+Response:
+Generated:
+
+* drawLine() using Bresenham's Line Algorithm
+* drawRectangle()
+* drawCircle() using trigonometric calculations
+* drawTriangle() using three connected lines
+* Shape rendering system
+
+==================================================
+DAY 1 (CONTINUED)
+
+Prompt:
+Store all graphical objects in a collection using structures. Use an enum to identify shape types and a union to store shape-specific data efficiently.
+
+Response:
+Generated:
+
+* ShapeType enumeration
+* Shape structure
+* Union-based shape storage
+* Object array for scene management
+* Support for Line, Rectangle, Circle, and Triangle objects
+
+==================================================
+DAY 1 (CONTINUED)
+
+Prompt:
+Implement object management functions for the graphics editor. Add functionality to:
+
+* Add Object
+* Delete Object
+* Modify Object
+
+Store all objects in an array and update the scene accordingly.
+
+Response:
+Generated:
+
+* addObject()
+* deleteObject()
+* modifyObject()
+* Object list management
+* Index validation
+* Dynamic scene updates
+
+==================================================
+DAY 1 (CONTINUED)
+
+Prompt:
+Implement a redraw system that clears the canvas and redraws all existing objects whenever changes occur. Use a switch statement to determine which drawing function to call for each shape type.
+
+Response:
+Generated:
+
+* redrawScene()
+* Complete scene reconstruction
+* Shape rendering dispatcher
+* Automatic canvas refresh after modifications
+
+==================================================
+DAY 1 (FINAL)
+
+Prompt:
+Create a demonstration program that:
+
+1. Adds a Rectangle
+2. Adds a Circle
+3. Adds a Line
+4. Adds a Triangle
+5. Displays the initial picture
+6. Deletes one object
+7. Displays the updated picture
+8. Modifies a rectangle
+9. Displays the final picture
+
+Response:
+Generated a complete working program demonstrating:
+
+* Shape creation
+* Scene rendering
+* Object deletion
+* Object modification
+* Multiple redraw cycles
+* ASCII graphics output
+
+==================================================
+GITHUB PROMPTS
+
+Prompt:
+How do I compile this graphics editor using GCC?
+
+Response:
+gcc graphics_editor.c -o graphics_editor -lm
+
+Run:
+./graphics_editor
+
+---
+
+Prompt:
+How do I push the completed project to GitHub?
+
+Response:
+git init
+git add .
+git commit -m "Implemented 2D Graphics Editor in C"
+git branch -M main
+git remote add origin <repository-url>
+git push -u origin main
+
+==================================================
+PROJECT FEATURES
+
+✔ ASCII Graphics Rendering
+✔ Canvas Management
+✔ Bresenham Line Drawing
+✔ Rectangle Drawing
+✔ Circle Drawing
+✔ Triangle Drawing
+✔ Shape Enumeration
+✔ Union-Based Shape Storage
+✔ Add Object
+✔ Delete Object
+✔ Modify Object
+✔ Scene Redraw System
+✔ Object Array Management
+✔ Console-Based Visualization
+✔ GitHub Deployment
+
+==================================================
+LEARNING OUTCOMES
+
+✔ Structures in C
+✔ Unions in C
+✔ Enumerations
+✔ Arrays of Structures
+✔ Graphics Algorithms
+✔ Bresenham Line Algorithm
+✔ Scene Rendering Concepts
+✔ Object Management Systems
+✔ Modular Programming
+✔ Git & GitHub Workflow
+
+
